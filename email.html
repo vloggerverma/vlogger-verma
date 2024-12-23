@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Vlogger Verma</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: yellow; /* Set background color to yellow */
+            color: #333;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #ff0000;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            padding: 10px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #cc0000;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vlogger Verma - Contact us</h1>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/Ansh%20Verma/OneDrive/Desktop/av.html">Home</a>
+        
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/meoojbjk" method="POST">
+                <div>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                </div>
+                <div>
+                    <label for="email">Your Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                </div>
+                <div>
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vlogger Verma. All rights reserved. Designed with love by Ansh Verma.</p>
+    </footer>
+
+</body>
+</html>
